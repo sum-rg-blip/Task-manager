@@ -6,7 +6,9 @@ const client = require('prom-client');
 const app = express();
 app.use(express.json());
 
+<<<<<<< HEAD
 const VERSION = process.env.APP_VERSION || '2.0.0-a';
+=======
 const PORT = process.env.PORT || 3000;
 
 // ---- Prometheus metrics ----
